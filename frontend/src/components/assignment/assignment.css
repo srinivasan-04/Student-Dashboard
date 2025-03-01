@@ -1,0 +1,376 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Spectral", Arial, sans-serif;
+  width: 100%;
+ 
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: #dde6ed;
+  border-radius: 10px;
+  color: #526d82;
+}
+
+.search-bar {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #dde6ed;
+  color: #526d82;
+}
+
+.search-icon {
+  margin-left: -30px;
+  color: #969393;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.search-icon:hover {
+  transform: scale(1.2);
+}
+
+.main-content {
+  display: flex;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.left-section {
+  flex: 2;
+  padding-right: 20px;
+}
+
+.right-section {
+  flex: 1;
+}
+
+.profile-card,
+.assignments-section,
+.activities-section {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #dde6ed;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.activities-section h2{
+  border-bottom: #27374d 1px solid;
+  margin-bottom: 10px;
+}
+.activities-section ul{
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+.activities-section ul li{
+  font-size: 1.1rem;
+  color: #405769;
+}
+.set-goals-btn {
+  background: #526d82;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.set-goals-btn:hover {
+  background: #3a4f61;
+}
+
+/* assignment css */
+
+.assignments-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.assignments-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #27374d;
+}
+
+.assignments-header h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.assignments-header .view-more {
+  color:#395276;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.assignments-list {
+  display: flex;
+  gap: 20px;
+}
+
+.assignment-card {
+  flex: 1;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.assignment-header h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 5px;
+}
+
+.assignment-header p {
+  font-size: 14px;
+  color: #666;
+  margin: 0 0 10px;
+}
+
+.assignment-body img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.status-badge {
+  display: inline-block;
+  background-color: #28a745;
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.date {
+  font-size: 12px;
+  color: #888;
+  margin-top: 5px;
+}
+
+.progress-bar {
+  position: relative;
+  height: 8px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.progress-bar .progress {
+  height: 100%;
+  background-color: #007bff;
+}
+
+.progress-bar span {
+  display: block;
+  font-size: 12px;
+  color: #333;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* task css */
+.tasks-section {
+  padding: 20px;
+  background: #dde6ed;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.tasks-section h3{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #27374d;
+  color: #27374d;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.tasks-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tasks-section li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #526d82;
+}
+
+.task-color {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color:#31426e;
+}
+
+/* .task-color.upload {
+  background: #3a834f;
+}
+
+.task-color.study {
+  background: #3a4f84;
+}
+
+.task-color.paragraph {
+  background: #843a84;
+}
+
+.task-color.spell-check {
+  background: #84613a;
+} */
+
+.create-task-btn {
+  background: #526d82;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.create-task-btn:hover {
+  background: #3a4f61;
+}
+
+
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #dde6ed;
+  border-radius: 10px;
+  padding: 20px;
+  height: 230px;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.profile-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.profile-text {
+  flex: 2;
+  color: #526d82;
+}
+.dashboard-container h2{
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #27374d;
+}
+.profile-text p span {
+  color: #31426e;
+  font-size: 22px;
+  font-weight: bold;
+}
+.profile-text p {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #526d82;
+}
+.profile-img {
+  flex: 1;
+  text-align: center;
+}
+
+.profile-img img {
+  width: 270px;
+  height: 180px;
+  border-radius: 20%;
+  object-fit: cover;
+}
+
+.set-goals-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #526d82;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  font-size: 1.1rem;
+ 
+}
+
+.set-goals-btn:hover {
+  background: #3a4f61;
+}
+.calender-section{
+  background-color: #dde6ed;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.assignment-body img {
+  width: 70px;
+  height: 50px;
+ object-fit: cover;
+  margin-bottom: 10px;
+}
+/* Task css */
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.task-form input,
+.task-form select {
+  padding: 10px;
+  border: 1px solid #3a4f61;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  background: #dde6ed;
+  color: #526d82;
+}
+
+.task-form button {
+  align-self: flex-start;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}

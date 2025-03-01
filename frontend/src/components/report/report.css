@@ -1,0 +1,41 @@
+.report-dashboard {
+    font-family: Arial, sans-serif;
+    /*  */
+    background: #f8f9fa;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+  }
+  
+  .report-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .report-search-bar {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .report-main-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .report-activities, .report-my-planning, .report-statistics, .report-course-activities, .report-top-tutors, .report-completed-courses {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  
+  .report-progress {
+    font-size: 1.2rem;
+    color: #28a745;
+  }
+  

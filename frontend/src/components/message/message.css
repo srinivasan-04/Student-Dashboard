@@ -1,0 +1,232 @@
+/* General Styling */
+.chat--container {
+  width: 100%;
+  height: 100vh;
+}
+.chat-app {
+  display: flex;
+  border: 1px solid #526d82; /* Muted blue-grey for border */
+  gap: 0px;
+  margin-top: 20px;
+  height: 88vh;
+  font-family: "Spectral", serif; /* Updated font style */
+  font-size: 16px; /* Default font size */
+}
+/* .chat-icon{
+    font-size: 22px;
+    transition: 0.5s ease-in-out;
+} */
+/* Sidebar */
+.sidebar {
+  width: 30%;
+  background-color: #e7ecf0; 
+  border-right: 1px solid #526d82; /* Muted blue-grey for border */
+  display: flex;
+  flex-direction: column;
+}
+
+.new-message button {
+  background-color: #526d82; /* Muted blue-grey */
+  color: white;
+  border: none;
+   /* Muted blue-grey for border */
+  padding: 10px;
+  font-family: "Spectral", serif; /* Font style */
+  font-size: 18px; /* Slightly larger for emphasis */
+  cursor: pointer;
+}
+
+.new-message button:hover {
+  background-color: #3a4f61; /* Darker shade for hover */
+}
+
+.inbox {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.inbox .search {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #526d82; /* Muted blue-grey for border */
+  font-family: "Spectral", serif; /* Font style */
+}
+
+.inbox .search input {
+  border: none;
+  margin-left: 10px;
+  flex: 1;
+  background: #dde6ed; /* Light blue-grey */
+  color: #526d82; /* Text color */
+  font-family: "Spectral", serif; /* Font style */
+  font-size: 16px; /* Input text size */
+}
+
+.inbox ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.inbox ul li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  font-family: "Spectral", serif; /* Font style */
+  font-size: 16px; /* List text size */
+  border: 1px solid #dde6ed; /* Light blue-grey for border */
+}
+
+
+.inbox ul li:hover {
+  background-color: #f9f9f9; /* Light card color */
+}
+
+.details {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.details h4 {
+  margin: 0;
+  font-family: "Spectral", serif; /* Font style */
+  font-size: 18px; /* Heading size */
+}
+
+.details p {
+  margin: 0;
+  color: #405769; /* Slightly darker blue-grey */
+  font-size: 14px; /* Paragraph text size */
+}
+
+/* Chat Section */
+.chat-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-header {
+  padding: 10px;
+  background-color: #526d82; 
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Spectral", serif; /* Font style */
+  font-size: 18px; /* Header font size */
+}
+
+.chat-header-info {
+  display: flex;
+  align-items: center;
+}
+
+.chat-header-info h4 {
+  margin-left: 10px;
+  font-family: "Spectral", serif; /* Font style */
+  font-size: 20px; /* Header text size */
+}
+
+.chat-header-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-body {
+  flex: 1;
+  padding: 20px;
+  width: 100%;
+  overflow-y: auto;
+  background-color: #dde6ed; /* Light blue-grey */
+  font-family: "Spectral", serif; /* Font style */
+  font-size: 16px; /* Default text size */
+}
+
+.msg-message {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+
+.msg-message.msg-sent {
+  align-items: flex-end;
+}
+
+.msg-message p {
+  display: flex;
+  max-width: 55%;
+  background-color: #f9f9f9; /* Light card color */
+  padding: 10px;
+  border-radius: 10px;
+  word-wrap: break-word; /* Allow wrapping of long messages */
+  font-family: "Spectral", serif; /* Font style */
+  font-size: 16px; /* Chat message size */
+}
+
+.msg-message.msg-sent p {
+  background-color: #4d6d87; 
+  color: white;/* Soft green for sent messages */
+}
+
+.msg-message-time {
+  font-size: 12px; /* Smaller for timestamps */
+  color: #405769; /* Slightly darker blue-grey */
+  margin-top: 5px;
+  align-self: flex-end; /* Align time to bottom right for sent messages */
+  margin-right: 5px;
+}
+
+.msg-message.msg-received p {
+  background-color: #f0f0f0; /* Light grey for received messages */
+}
+
+.msg-message.msg-received .msg-message-time {
+  align-self: flex-start; /* Align time to bottom left for received messages */
+}
+
+.chat-footer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #dde6ed; /* Light blue-grey */
+  font-family: "Spectral", serif; /* Font style */
+}
+
+.chat-footer input {
+  flex: 1;
+  padding: 10px;
+  outline: none;
+  border: none;
+  margin: 0 10px;
+  border-radius: 20px;
+  background: #f9f9f9; /* Light card color */
+  color: #526d82; /* Muted blue-grey */
+  font-family: "Spectral", serif; /* Font style */
+  font-size: 16px; /* Input text size */
+}
+
+.chat-footer button {
+  background-color: #526d82;
+  display: flex;
+   /* Muted blue-grey */
+  color: white;
+  border: none;
+  width: 40px;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  font-family: "Spectral", serif; /* Font style */
+  font-size: 18px; /* Button text size */
+}
+
+.chat-footer button:hover {
+  background-color: #3a4f61; /* Darker shade for hover */
+}
+

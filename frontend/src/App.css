@@ -1,0 +1,122 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #dde6ed;
+  font-family: "Spectral"
+}
+.dashboard{
+  display: flex;
+  gap: 20px;
+}
+/* .dashboard--content{
+  background: #fff;
+  flex: 1;
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+
+} */
+.dashboard--content {
+  background: #fff;
+  flex: 1;
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+  min-height: 100vh; /* Ensures the background covers the full viewport height */
+  overflow: auto; /* Handles overflowing content gracefully */
+}
+.notfound img{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  object-fit: contain;
+}
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .dashboard {
+    flex-direction: column; /* Stacks the content vertically */
+    gap: 15px;
+  }
+
+  .dashboard--content {
+    padding: 1.5rem; /* Adjust padding for smaller screens */
+    border-radius: 15px; /* Slightly smaller border radius */
+  }
+
+  .notfound img {
+    height: 70vh; /* Reduce image height on medium screens */
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard {
+    gap: 10px;
+  }
+
+  .dashboard--content {
+    padding: 1rem; /* Compact padding for smaller screens */
+    border-radius: 10px;
+  }
+
+  .notfound img {
+    height: 60vh; /* Reduce image height on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard--content {
+    padding: 0.5rem; /* Minimal padding for very small screens */
+    gap: 1rem;
+  }
+
+  .notfound img {
+    height: 50vh; /* Further reduce image height for mobile */
+  }
+}

@@ -39,6 +39,18 @@ A **Student Dashboard** web application built using the **MERN** stack (MongoDB,
 - MongoDB (Database)
 - JWT (Authentication)
 
+## 📸 Screenshots
+
+![login](https://github.com/srinivasan-04/Student-Dashboard/blob/119efc3b67c705262f57139f74ccd5ee0e96202b/scrrenShots/Screenshot%202025-03-01%20170931.png)
+
+![dashboard](https://github.com/srinivasan-04/Student-Dashboard/blob/119efc3b67c705262f57139f74ccd5ee0e96202b/scrrenShots/Screenshot%202025-03-01%20170956.png)
+
+![assignments](https://github.com/srinivasan-04/Student-Dashboard/blob/119efc3b67c705262f57139f74ccd5ee0e96202b/scrrenShots/Screenshot%202025-03-01%20171008.png)
+
+![statistics](https://github.com/srinivasan-04/Student-Dashboard/blob/119efc3b67c705262f57139f74ccd5ee0e96202b/scrrenShots/Screenshot%202025-03-01%20171022.png)
+
+![courses](https://github.com/srinivasan-04/Student-Dashboard/blob/119efc3b67c705262f57139f74ccd5ee0e96202b/scrrenShots/Screenshot%202025-03-01%20171033.png)
+
 
 
 ## 🚀 Installation
@@ -101,11 +113,6 @@ Open your browser and go to: **[http://localhost:3000](http://localhost:3000)**
 ### 🧑 Profile
 - Update your profile information in the "Profile" section.
 
-## 📸 Screenshots
-
-| Dashboard | Student Management | Messaging |
-|-----------|-------------------|-----------|
-| ![Dashboard]([scrrenShots/Screenshot2025-03-01170931.png](https://github.com/srinivasan-04/Student-Dashboard/blob/872cbbda387ce53ef5ca8103edf69ef1fd49f97c/scrrenShots/Screenshot%202025-03-01%20170931.png)) | ![Student Management](https://via.placeholder.com/300) | ![Messaging](https://via.placeholder.com/300) |
 
 ---
 **Contributions are welcome!** Feel free to fork this repository and submit pull requests. 😊

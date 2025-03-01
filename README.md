@@ -105,7 +105,7 @@ Open your browser and go to: **[http://localhost:3000](http://localhost:3000)**
 
 | Dashboard | Student Management | Messaging |
 |-----------|-------------------|-----------|
-| ![Dashboard](scrrenShots/Screenshot 2025-03-01 170931.png) | ![Student Management](https://via.placeholder.com/300) | ![Messaging](https://via.placeholder.com/300) |
+| ![Dashboard]([scrrenShots/Screenshot2025-03-01170931.png](https://github.com/srinivasan-04/Student-Dashboard/blob/872cbbda387ce53ef5ca8103edf69ef1fd49f97c/scrrenShots/Screenshot%202025-03-01%20170931.png)) | ![Student Management](https://via.placeholder.com/300) | ![Messaging](https://via.placeholder.com/300) |
 
 ---
 **Contributions are welcome!** Feel free to fork this repository and submit pull requests. 😊

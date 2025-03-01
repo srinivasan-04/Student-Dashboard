@@ -105,7 +105,7 @@ Open your browser and go to: **[http://localhost:3000](http://localhost:3000)**
 
 | Dashboard | Student Management | Messaging |
 |-----------|-------------------|-----------|
-| ![Dashboard](https://via.placeholder.com/300) | ![Student Management](https://via.placeholder.com/300) | ![Messaging](https://via.placeholder.com/300) |
+| ![Dashboard](scrrenShots/Screenshot 2025-03-01 170931.png) | ![Student Management](https://via.placeholder.com/300) | ![Messaging](https://via.placeholder.com/300) |
 
 ---
 **Contributions are welcome!** Feel free to fork this repository and submit pull requests. 😊
